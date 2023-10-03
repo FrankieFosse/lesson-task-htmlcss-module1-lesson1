@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Roboto&display=swap');
+
+.header {
+    background-image: url(/images/home-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:300px;
+    margin: 10px 100px;
+    padding: auto;
+    
+    
+}
+
+.rounded {
+    border-radius: 25px;
+    height: 400px;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 200px;
+}
+
+@font-face {
+    font-family: My Special Header Font;
+    src: url(../fonts/BootsAndSpurs.ttf);
+}
+
+@font-face {
+    font-family: My Special Paragraph Font;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+p {
+    font-family: "Roboto", fantasy;
+}
+
+h1, h2, h3 {
+    font-family: 'Inconsolata', monospace;
+}
+
+ul {
+    font-family: "My Special Paragraph Font", fantasy;
+}
+
+a {
+    font-family: fantasy;
+}
